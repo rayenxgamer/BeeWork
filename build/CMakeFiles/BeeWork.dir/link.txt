@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/BeeWork.dir/link.d CMakeFiles/BeeWork.dir/examples/main.c.o CMakeFiles/BeeWork.dir/libs/glad/glad.c.o -o BeeWork

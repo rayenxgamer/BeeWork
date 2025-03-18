@@ -1,0 +1,9 @@
+/home/ray/cglm/CMakeFiles/cglm.dir
+/home/ray/cglm/CMakeFiles/package.dir
+/home/ray/cglm/CMakeFiles/package_source.dir
+/home/ray/cglm/CMakeFiles/edit_cache.dir
+/home/ray/cglm/CMakeFiles/rebuild_cache.dir
+/home/ray/cglm/CMakeFiles/list_install_components.dir
+/home/ray/cglm/CMakeFiles/install.dir
+/home/ray/cglm/CMakeFiles/install/local.dir
+/home/ray/cglm/CMakeFiles/install/strip.dir
