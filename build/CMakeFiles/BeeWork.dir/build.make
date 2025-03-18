@@ -112,6 +112,8 @@ BeeWork: CMakeFiles/BeeWork.dir/examples/main.c.o
 BeeWork: CMakeFiles/BeeWork.dir/libs/glad/glad.c.o
 BeeWork: CMakeFiles/BeeWork.dir/build.make
 BeeWork: CMakeFiles/BeeWork.dir/compiler_depend.ts
+BeeWork: /usr/lib/libSDL2main.a
+BeeWork: /usr/lib/libSDL2-2.0.so.0.3200.52
 BeeWork: CMakeFiles/BeeWork.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ray/CProjects/BeeWork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable BeeWork"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BeeWork.dir/link.txt --verbose=$(VERBOSE)
