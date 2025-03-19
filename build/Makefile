@@ -255,6 +255,30 @@ libs/glad/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BeeWork.dir/build.make CMakeFiles/BeeWork.dir/libs/glad/glad.c.s
 .PHONY : libs/glad/glad.c.s
 
+libs/stb/stb_image.o: libs/stb/stb_image.c.o
+.PHONY : libs/stb/stb_image.o
+
+# target to build an object file
+libs/stb/stb_image.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BeeWork.dir/build.make CMakeFiles/BeeWork.dir/libs/stb/stb_image.c.o
+.PHONY : libs/stb/stb_image.c.o
+
+libs/stb/stb_image.i: libs/stb/stb_image.c.i
+.PHONY : libs/stb/stb_image.i
+
+# target to preprocess a source file
+libs/stb/stb_image.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BeeWork.dir/build.make CMakeFiles/BeeWork.dir/libs/stb/stb_image.c.i
+.PHONY : libs/stb/stb_image.c.i
+
+libs/stb/stb_image.s: libs/stb/stb_image.c.s
+.PHONY : libs/stb/stb_image.s
+
+# target to generate assembly for a file
+libs/stb/stb_image.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BeeWork.dir/build.make CMakeFiles/BeeWork.dir/libs/stb/stb_image.c.s
+.PHONY : libs/stb/stb_image.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -277,6 +301,9 @@ help:
 	@echo "... libs/glad/glad.o"
 	@echo "... libs/glad/glad.i"
 	@echo "... libs/glad/glad.s"
+	@echo "... libs/stb/stb_image.o"
+	@echo "... libs/stb/stb_image.i"
+	@echo "... libs/stb/stb_image.s"
 .PHONY : help
 
 

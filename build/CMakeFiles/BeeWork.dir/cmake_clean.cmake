@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/BeeWork.dir/examples/main.c.o.d"
   "CMakeFiles/BeeWork.dir/libs/glad/glad.c.o"
   "CMakeFiles/BeeWork.dir/libs/glad/glad.c.o.d"
+  "CMakeFiles/BeeWork.dir/libs/stb/stb_image.c.o"
+  "CMakeFiles/BeeWork.dir/libs/stb/stb_image.c.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

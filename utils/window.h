@@ -1,11 +1,10 @@
 #pragma once
 
-#include <SDL_video.h>
+#include <stdint.h>
+#include <stdio.h>
 #include <assert.h>
 #include <glad/glad.h>
 #include <SDL2/SDL.h>
-#include <stdint.h>
-#include <stdio.h>
 
 typedef uint32_t u32;
 

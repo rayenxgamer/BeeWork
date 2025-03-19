@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ray/CProjects/BeeWork/examples/main.c" "CMakeFiles/BeeWork.dir/examples/main.c.o" "gcc" "CMakeFiles/BeeWork.dir/examples/main.c.o.d"
   "/home/ray/CProjects/BeeWork/libs/glad/glad.c" "CMakeFiles/BeeWork.dir/libs/glad/glad.c.o" "gcc" "CMakeFiles/BeeWork.dir/libs/glad/glad.c.o.d"
+  "/home/ray/CProjects/BeeWork/libs/stb/stb_image.c" "CMakeFiles/BeeWork.dir/libs/stb/stb_image.c.o" "gcc" "CMakeFiles/BeeWork.dir/libs/stb/stb_image.c.o.d"
   "" "BeeWork" "gcc" "CMakeFiles/BeeWork.dir/link.d"
   )
 

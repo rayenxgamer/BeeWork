@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/ray/CProjects/BeeWork/libs -I/home/ray/CProjects/BeeWork/libs/cglm/include -isystem /usr/include/SDL2
+C_INCLUDES = -I/home/ray/CProjects/BeeWork/libs -I/home/ray/CProjects/BeeWork/utils -I/home/ray/CProjects/BeeWork/libs/cglm/include -isystem /usr/include/SDL2
 
 C_FLAGS = -std=gnu99
 

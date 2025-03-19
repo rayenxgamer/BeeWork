@@ -1,13 +1,19 @@
 [
 {
   "directory": "/home/ray/CProjects/BeeWork/build",
-  "command": "/usr/bin/cc  -I/home/ray/CProjects/BeeWork/libs -I/home/ray/CProjects/BeeWork/libs/cglm/include -isystem /usr/include/SDL2 -std=gnu99 -o CMakeFiles/BeeWork.dir/examples/main.c.o -c /home/ray/CProjects/BeeWork/examples/main.c",
+  "command": "/usr/bin/cc  -I/home/ray/CProjects/BeeWork/libs -I/home/ray/CProjects/BeeWork/utils -I/home/ray/CProjects/BeeWork/libs/cglm/include -isystem /usr/include/SDL2 -std=gnu99 -o CMakeFiles/BeeWork.dir/examples/main.c.o -c /home/ray/CProjects/BeeWork/examples/main.c",
   "file": "/home/ray/CProjects/BeeWork/examples/main.c",
   "output": "CMakeFiles/BeeWork.dir/examples/main.c.o"
 },
 {
   "directory": "/home/ray/CProjects/BeeWork/build",
-  "command": "/usr/bin/cc  -I/home/ray/CProjects/BeeWork/libs -I/home/ray/CProjects/BeeWork/libs/cglm/include -isystem /usr/include/SDL2 -std=gnu99 -o CMakeFiles/BeeWork.dir/libs/glad/glad.c.o -c /home/ray/CProjects/BeeWork/libs/glad/glad.c",
+  "command": "/usr/bin/cc  -I/home/ray/CProjects/BeeWork/libs -I/home/ray/CProjects/BeeWork/utils -I/home/ray/CProjects/BeeWork/libs/cglm/include -isystem /usr/include/SDL2 -std=gnu99 -o CMakeFiles/BeeWork.dir/libs/stb/stb_image.c.o -c /home/ray/CProjects/BeeWork/libs/stb/stb_image.c",
+  "file": "/home/ray/CProjects/BeeWork/libs/stb/stb_image.c",
+  "output": "CMakeFiles/BeeWork.dir/libs/stb/stb_image.c.o"
+},
+{
+  "directory": "/home/ray/CProjects/BeeWork/build",
+  "command": "/usr/bin/cc  -I/home/ray/CProjects/BeeWork/libs -I/home/ray/CProjects/BeeWork/utils -I/home/ray/CProjects/BeeWork/libs/cglm/include -isystem /usr/include/SDL2 -std=gnu99 -o CMakeFiles/BeeWork.dir/libs/glad/glad.c.o -c /home/ray/CProjects/BeeWork/libs/glad/glad.c",
   "file": "/home/ray/CProjects/BeeWork/libs/glad/glad.c",
   "output": "CMakeFiles/BeeWork.dir/libs/glad/glad.c.o"
 },
