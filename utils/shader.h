@@ -117,4 +117,52 @@ void Shader_SetVec3(struct Shader self,const char* name, vec3 value)
 {
     glUniform3fv(glGetUniformLocation(self.handle,name), 1, &value[0]);
 }
+void Shader_SetVec4(struct Shader self,const char* name, vec4 value)
+{
+    glUniform4fv(glGetUniformLocation(self.handle,name), 1, &value[0]);
+}
 
+struct Shader BdefaultColorShader(struct Shader shader){
+   const char *vertexShaderSource ="#version 330 core\n"
+      "layout (location = 0) in vec3 aPos;\n"
+      "void main()\n"
+      "{\n"
+      "   gl_Position = vec4(aPos, 1.0);\n"
+      "}\0";
+
+  const char *fragmentShaderSource = "#version 330 core\n"
+      "out vec4 FragColor;\n"
+      "uniform vec4 Color;\n"
+      "void main()\n"
+      "{\n"
+      "   FragColor = color;\n"
+      "}\n\0";
+
+  unsigned int vertexShader = glCreateShader(GL_VERTEX_SHADER);
+  glShaderSource(vertexShader, 1, &vertexShaderSource, NULL);
+  glCompileShader(vertexShader);
+  unsigned int fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
+  glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);
+  glCompileShader(fragmentShader);
+  unsigned int shaderProgram = glCreateProgram();
+  glAttachShader(shaderProgram, vertexShader);
+  glAttachShader(shaderProgram, fragmentShader);
+  glLinkProgram(shaderProgram);
+
+  GLint compiled;
+  glGetShaderiv(shaderProgram, GL_COMPILE_STATUS, &compiled);
+
+  // Check OpenGL logs if compilation failed
+  if (compiled == 0) {
+    printf("failed to compile the Default Color Shader");
+  }
+
+  shader.handle = shaderProgram;
+  shader.fs_handle = fragmentShader;
+  shader.vs_handle = vertexShader;
+
+  glDeleteShader(vertexShader);
+  glDeleteShader(fragmentShader);
+
+  return shader;
+}
